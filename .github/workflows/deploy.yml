@@ -24,8 +24,8 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build and Export
+        run: npm run export
         env:
           NODE_ENV: production
 
